@@ -12,3 +12,23 @@ h1 {
 body {
   background-color: #1D2024 !important;
 }
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%;
+}
+
+.carousel-inner img {
+  max-height: 600px !important;
+  object-fit: cover;
+}
+
+.black-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
