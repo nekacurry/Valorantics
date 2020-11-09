@@ -47,13 +47,67 @@
   </div>
 
   <!-- NAVBAR -->
-  <nav class="nav nav-pills flex-column flex-sm-row">
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Home</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="characters.html">Characters</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="maps.html">Maps</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact</a>
-    <hr class="mb-0 pb-0">
-  </nav>
+  <ul class="nav nav-pills flex-column flex-sm-row">
+    <li class="flex-sm-fill text-sm-center nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="flex-sm-fill text-sm-center nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="characters.html" role="button" aria-haspopup="true" aria-expanded="false">Agents</a>
+      <div class="dropdown-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <a class="dropdown-item" href="characters.html">All</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="characters.html#brim">Brimstone</a>
+              <a class="dropdown-item" href="characters.html#viper">Viper</a>
+              <a class="dropdown-item" href="characters.html#omen">Omen</a>
+            </div>
+            <div class="col-sm-4">
+              <a class="dropdown-item" href="characters.html#killjoy">Killjoy</a>
+              <a class="dropdown-item" href="characters.html#cypher">Cypher</a>
+              <a class="dropdown-item" href="characters.html#sova">Sova</a>
+              <a class="dropdown-item" href="characters.html#sage">Sage</a>
+              <a class="dropdown-item" href="characters.html#skye">Skye</a>
+            </div>
+            <div class="col-sm-4">
+              <a class="dropdown-item" href="characters.html#phoenix">Phoenix</a>
+              <a class="dropdown-item" href="characters.html#jett">Jett</a>
+              <a class="dropdown-item" href="characters.html#reyna">Reyna</a>
+              <a class="dropdown-item" href="characters.html#raze">Raze</a>
+              <a class="dropdown-item" href="characters.html#breach">Breach</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="flex-sm-fill text-sm-center nav-item">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="maps.html" role="button" aria-haspopup="true" aria-expanded="false">Maps</a>
+      <div class="dropdown-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <a class="dropdown-item" href="characters.html">All</a>
+              <div class="dropdown-divider"></div>
+            </div>
+            <div class="col-sm-4">
+              <a class="dropdown-item" href="maps.html#split">Split</a>
+              <a class="dropdown-item" href="maps.html#haven">Haven</a>
+              <a class="dropdown-item" href="maps.html#bind">Bind</a>
+            </div>
+            <div class="col-sm-4">
+              <a class="dropdown-item" href="maps.html#ascent">Ascent</a>
+              <a class="dropdown-item" href="maps.html#icebox">Icebox</a>
+              <a class="dropdown-item" href="maps.html#training">Training</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="flex-sm-fill text-sm-center nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+  </ul>
 
   <footer>
 
