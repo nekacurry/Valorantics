@@ -20,6 +20,8 @@ h3 , h4 {
 body {
   background-color: #1D2024 !important;
   font-family: 'Montserrat' !important;
+  margin: 0;
+  padding: 0;
 }
 
 .carousel-caption {
@@ -57,4 +59,12 @@ body {
 input:focus {
   outline: none;
   box-shadow: none;
+}
+
+.nav {
+  position: sticky !important;
+  top: 0;
+  padding: 0.5rem;
+  z-index: 20;
+  background-color: #1D2024;
 }
