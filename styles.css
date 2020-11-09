@@ -68,3 +68,24 @@ input:focus {
   z-index: 20;
   background-color: #1D2024;
 }
+
+.hero-background-img {
+  position: relative;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("assets/hero1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
