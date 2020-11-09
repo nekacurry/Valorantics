@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'VALORANT';
-    src: url('VALORANT-Regular.woff2') format('woff2'),
-        url('VALORANT-Regular.woff') format('woff');
+    src: url('fonts/VALORANT-Regular.woff2') format('woff2'),
+        url('fonts/VALORANT-Regular.woff') format('woff');
 }
 
 h1 {
@@ -9,8 +9,13 @@ h1 {
   font-size: 2.5vw !important;
 }
 
+h2, h3 {
+  font-family: 'Oswald' !important;
+}
+
 body {
   background-color: #1D2024 !important;
+  font-family: 'Montserrat' !important;
 }
 
 .carousel-caption {
