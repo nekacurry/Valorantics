@@ -3,3 +3,11 @@
     src: url('VALORANT-Regular.woff2') format('woff2'),
         url('VALORANT-Regular.woff') format('woff');
 }
+
+h1 {
+  font-family: 'VALORANT' !important;
+}
+
+body {
+  background-color: #272b30 !important;
+}
