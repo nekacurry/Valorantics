@@ -37,3 +37,7 @@ body {
   width: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
+
+.subtitle {
+  font-size: 1vw !important;
+}
